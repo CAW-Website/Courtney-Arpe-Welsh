@@ -1,5 +1,7 @@
-source 'http://rubygems.org'
-ruby '2.3.3'
+ source 'http://rubygems.org'
+ ruby '2.3.3'
 
-gem 'sendgrid-ruby'
-gem 'sinatra'
+ gem 'sinatra'
+ gem 'sass'
+ gem 'sendgrid-ruby'
+
