@@ -1,9 +1,11 @@
+@import "colours"
+
 body {
-	background-color:white;
+	background-color: $main-light;
 }
 
 
 
 .title {
-	color: orange;
+	color: $main-dark;
 }
