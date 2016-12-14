@@ -1,22 +1,36 @@
-body {
-  background-color: white; }
+/*
+Error: Invalid CSS after "body ": expected selector or at-rule, was "{"
+        on line 3 of scss/style.scss
 
-.main_nav {
-  background-color: black; }
+1: @import "colours"
+2: 
+3: body {
+4: 	background-color: $main-light;
+5: }
+6: 
+7: 
+8: .main_nav {
 
-.title {
-  color: orange;
-  height: 75px; }
-
-span {
-  color: green; }
-
-.navbar {
-  background-color: orange; }
-
-.hero-image {
-  height: 500px;
-  border: 1px solid black;
-  background-color: orange; }
-
-/*# sourceMappingURL=style.css.map */
+Backtrace:
+scss/style.scss:3
+/Users/michaelwelsh/.rvm/gems/ruby-2.3.3/gems/sass-3.4.22/lib/sass/scss/parser.rb:1189:in `expected'
+/Users/michaelwelsh/.rvm/gems/ruby-2.3.3/gems/sass-3.4.22/lib/sass/scss/parser.rb:1125:in `expected'
+/Users/michaelwelsh/.rvm/gems/ruby-2.3.3/gems/sass-3.4.22/lib/sass/scss/parser.rb:42:in `parse'
+/Users/michaelwelsh/.rvm/gems/ruby-2.3.3/gems/sass-3.4.22/lib/sass/engine.rb:406:in `_to_tree'
+/Users/michaelwelsh/.rvm/gems/ruby-2.3.3/gems/sass-3.4.22/lib/sass/engine.rb:381:in `_render_with_sourcemap'
+/Users/michaelwelsh/.rvm/gems/ruby-2.3.3/gems/sass-3.4.22/lib/sass/engine.rb:298:in `render_with_sourcemap'
+/Users/michaelwelsh/.rvm/gems/ruby-2.3.3/gems/sass-3.4.22/lib/sass/plugin/compiler.rb:492:in `update_stylesheet'
+/Users/michaelwelsh/.rvm/gems/ruby-2.3.3/gems/sass-3.4.22/lib/sass/plugin/compiler.rb:215:in `block in update_stylesheets'
+/Users/michaelwelsh/.rvm/gems/ruby-2.3.3/gems/sass-3.4.22/lib/sass/plugin/compiler.rb:209:in `each'
+/Users/michaelwelsh/.rvm/gems/ruby-2.3.3/gems/sass-3.4.22/lib/sass/plugin/compiler.rb:209:in `update_stylesheets'
+/Users/michaelwelsh/.rvm/gems/ruby-2.3.3/gems/sass-3.4.22/lib/sass/plugin/compiler.rb:473:in `on_file_changed'
+/Users/michaelwelsh/.rvm/gems/ruby-2.3.3/gems/sass-3.4.22/lib/sass/plugin/compiler.rb:331:in `block in watch'
+/Users/michaelwelsh/.rvm/gems/ruby-2.3.3/gems/sass-3.4.22/vendor/listen/lib/listen/listener.rb:252:in `on_change'
+/Users/michaelwelsh/.rvm/gems/ruby-2.3.3/gems/sass-3.4.22/vendor/listen/lib/listen/listener.rb:290:in `block in initialize_adapter'
+/Users/michaelwelsh/.rvm/gems/ruby-2.3.3/gems/sass-3.4.22/vendor/listen/lib/listen/adapters/polling.rb:48:in `poll_changed_directories'
+/Users/michaelwelsh/.rvm/gems/ruby-2.3.3/gems/sass-3.4.22/vendor/listen/lib/listen/adapter.rb:299:in `block in start_poller'
+*/
+body:before {
+  white-space: pre;
+  font-family: monospace;
+  content: "Error: Invalid CSS after \"body \": expected selector or at-rule, was \"{\"\A         on line 3 of scss/style.scss\A \A 1: @import \"colours\"\A 2: \A 3: body {\A 4: 	background-color: $main-light;\A 5: }\A 6: \A 7: \A 8: .main_nav {"; }
