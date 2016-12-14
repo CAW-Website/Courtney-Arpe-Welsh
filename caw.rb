@@ -9,6 +9,10 @@ get "/contact" do
 	erb :contact
 end
 
+get "/about" do
+	erb :about
+end	
+
 post "/message-sent" do
 	@name = params[:name]
 	@company = params[:company]
