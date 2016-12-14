@@ -1,11 +1,84 @@
-@import "colours"
+@import "colours";
 
 body {
-	background-color: $main-light;
+	background-image: url('/images/bgimage.jpg');
+	background-repeat: no-repeat;
+}
+
+
+
+.nav {
+	padding-top: 18px;
+	border-bottom: 1px solid white;
+	font-family: $nav-font;
+	font-size: 16px;
+
+	a:hover {
+		font-size:26px;
+
+	}
+}
+
+
+.main-header {
+	text-align: center;
+	color: white;
+	font-family: $nav-font;
+
+
+	h2 {
+		font-size: 62px;
+
+	}
+
+	h3 {
+		font-size:16px;
+		margin-top: 0px;
+	}
+}
+
+
+
+.footer {
+	
+	height: 300px;
 }
 
 
 
 .title {
-	color: $main-dark;
+	color: $prim-med;
+	padding-top: 10px;
+	text-align:center;
+	font-family: $title-font;
+
+
+	h1 {
+		text-align: left;
+
+
+		span:hover{
+			color: $sec-dark;
+		}
+	}
+}
+
+// .content-title {
+// 	font-family: $nav-font;
+
+	
+
+// 	h2 {
+// 		font-size: 48px;
+
+// 		h3 {
+// 			font-size: 16px;
+// 		}
+// 	}
+// }
+
+
+span {
+	color: $prim-light;
+
 }

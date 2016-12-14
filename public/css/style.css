@@ -1,7 +1,39 @@
 body {
-  background-color: white; }
+  background-image: url("/images/bgimage.jpg");
+  background-repeat: no-repeat; }
+
+.nav {
+  padding-top: 18px;
+  border-bottom: 1px solid white;
+  font-family: "Lobster", cursive;
+  font-size: 16px; }
+  .nav a:hover {
+    font-size: 26px; }
+
+.main-header {
+  text-align: center;
+  color: white;
+  font-family: "Lobster", cursive; }
+  .main-header h2 {
+    font-size: 62px; }
+  .main-header h3 {
+    font-size: 16px;
+    margin-top: 0px; }
+
+.footer {
+  height: 300px; }
 
 .title {
-  color: orange; }
+  color: #004c99;
+  padding-top: 10px;
+  text-align: center;
+  font-family: "Monoton", cursive; }
+  .title h1 {
+    text-align: left; }
+    .title h1 span:hover {
+      color: #660000; }
+
+span {
+  color: #9999ff; }
 
 /*# sourceMappingURL=style.css.map */
