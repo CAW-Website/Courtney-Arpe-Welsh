@@ -10,6 +10,8 @@ body {
 .nav {
 	padding-top: 18px;
 	border-bottom: 1px solid white;
+	font-family: $nav-font;
+	font-size: 16px;
 
 	a:hover {
 		font-size:26px;
@@ -21,11 +23,25 @@ body {
 .main-header {
 	text-align: center;
 	color: white;
+	font-family: $nav-font;
+
+
+	h2 {
+		font-size: 62px;
+
+	}
+
+	h3 {
+		font-size:16px;
+		margin-top: 0px;
+	}
 }
 
-.content-title {
-	height: 500px;
-	border: 1px solid black;
+
+
+.footer {
+	
+	height: 300px;
 }
 
 
@@ -34,6 +50,7 @@ body {
 	color: $prim-med;
 	padding-top: 10px;
 	text-align:center;
+	font-family: $title-font;
 
 
 	h1 {
@@ -45,6 +62,20 @@ body {
 		}
 	}
 }
+
+// .content-title {
+// 	font-family: $nav-font;
+
+	
+
+// 	h2 {
+// 		font-size: 48px;
+
+// 		h3 {
+// 			font-size: 16px;
+// 		}
+// 	}
+// }
 
 
 span {
