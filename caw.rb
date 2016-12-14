@@ -5,9 +5,18 @@ get "/" do
 	erb :home
 end
 
+get "/portfolio" do
+	@carousel_images = ["burmashave.jpg", "campbells.png", "drpepper.jpg", "jello.png"]
+	erb :portfolio
+end
+
 get "/contact" do
 	erb :contact
 end
+
+get "/about" do
+	erb :about
+end	
 
 post "/message-sent" do
 	@name = params[:name]
