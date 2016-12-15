@@ -1,0 +1,27 @@
+.contact-page-image-box	{
+	text-align: center;
+	margin: 40px auto;
+
+	#contact-page-image	{
+		border: 12px double $sec-dark;
+	}
+}
+
+.contact-form	{
+	color: $prim-light;
+
+	.input-field	{
+		position: absolute;
+		right: 15px;
+		margin-bottom: 10px;
+	}
+
+	.input-field-label	{
+		margin:	5px 0;
+	}
+
+	input[type=radio]	{
+		margin: 5px 10px 10px 10px;
+	}
+}
+

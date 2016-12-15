@@ -1,14 +1,25 @@
-<form method="POST" action="/message-sent">
-	<label for="name">Name: </label>
-		<input type="text" name="name"><br>
-	<label for="company">Company: </label>
-		<input type="text" name="company"><br>
-	<label for="email">Email (required): </label>
-		<input type="email" name="email" required="required"><br>
-	<input type="radio" name="newcustomer" value=true checked="checked">I'm new here.   
-	<input type="radio" name="new-customer" value=false>I am a valued client.<br>
-	<label for="subject">Subject: </label>
-		<input type="text" name="subject"><br>
-	<textarea name="content" rows="6" cols="48" placeholder="Tell us what we can do for you."></textarea><br>
-	<button type="submit">Submit</button>
-</form>
+<div class="row">
+	<div class="contact-page-image-box">
+		<img id="contact-page-image" src="images/family-watching-tv.jpg">
+	</div>
+</div>
+<div class="row">
+	<div class="col-md-6 col-md-offset-3 col-sm-8 col-sm-offset-2 col-xs-12">
+		<div class="contact-form">
+			<form method="POST" action="/message-sent">
+				<label class="input-field-label" for="name">Name: </label>
+					<input class="input-field" type="text" name="name"><br>
+				<label class="input-field-label" for="company">Company: </label>
+					<input class="input-field" type="text" name="company"><br>
+				<input class="new-cust-button" type="radio" name="newcustomer" value=true checked="checked">    I'm new here.   
+				<input class="new-cust-button" type="radio" name="new-customer" value=false>    I am a valued client.  <br>
+				<label class="input-field-label" for="email">Email (required): </label>
+					<input class="input-field" type="email" name="email" required="required"><br>
+				<label class="input-field-label" for="subject">Subject: </label>
+					<input class="input-field" type="text" name="subject"><br>
+				<textarea id="email-content-field" name="content" rows="6" style="width: 100%" placeholder="Tell us what we can do for you."></textarea><br>
+				<button type="submit">Submit</button>
+			</form>
+		</div>
+	</div>
+</div>
