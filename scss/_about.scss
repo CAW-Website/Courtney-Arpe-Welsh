@@ -19,8 +19,13 @@ p {
 	color: white;
 }
 
-h1 {
-	font-family: $nav-font;
-	color: white;
-}
 
+
+.Page-Title {
+	h1 {
+		color: white;
+		font-family: $nav-font;
+	}
+
+
+}
