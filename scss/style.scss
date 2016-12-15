@@ -7,6 +7,7 @@
 body {
 	background-image: url('/images/bgimage.jpg');
 	background-repeat: no-repeat;
+	background-size: 100% 100%;
 }
 
 
@@ -15,7 +16,7 @@ body {
 	padding-top: 18px;
 	border-bottom: 1px solid white;
 	font-family: $nav-font;
-	font-size: 16px;
+	font-size: 18px;
 
 	a:hover {
 		font-size:26px;
@@ -42,10 +43,17 @@ body {
 }
 
 
+.main-content {
+	height: 500px;
+}
+
+
 
 .footer {
 	
 	height: 300px;
+	background-color: $prim-dark;
+	opacity: 0.2;
 }
 
 
@@ -67,19 +75,7 @@ body {
 	}
 }
 
-// .content-title {
-// 	font-family: $nav-font;
 
-	
-
-// 	h2 {
-// 		font-size: 48px;
-
-// 		h3 {
-// 			font-size: 16px;
-// 		}
-// 	}
-// }
 
 
 span {

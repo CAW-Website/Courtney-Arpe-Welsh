@@ -31,13 +31,14 @@ p {
 
 body {
   background-image: url("/images/bgimage.jpg");
-  background-repeat: no-repeat; }
+  background-repeat: no-repeat;
+  background-size: 100% 100%; }
 
 .nav {
   padding-top: 18px;
   border-bottom: 1px solid white;
   font-family: "Lobster", cursive;
-  font-size: 16px; }
+  font-size: 18px; }
   .nav a:hover {
     font-size: 26px; }
 
@@ -51,8 +52,13 @@ body {
     font-size: 16px;
     margin-top: 0px; }
 
+.main-content {
+  height: 500px; }
+
 .footer {
-  height: 300px; }
+  height: 300px;
+  background-color: #001933;
+  opacity: 0.2; }
 
 .title {
   color: #004c99;
