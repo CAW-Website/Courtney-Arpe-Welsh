@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 .img-responsive {
   height: 250px;
   width: 250px;
@@ -9,6 +10,24 @@
 
 p {
   font-family: "Lobster", cursive; }
+=======
+.contact-page-image-box {
+  text-align: center;
+  margin: 40px auto; }
+  .contact-page-image-box #contact-page-image {
+    border: 12px double #660000; }
+
+.contact-form {
+  color: #9999ff; }
+  .contact-form .input-field {
+    position: absolute;
+    right: 15px;
+    margin-bottom: 10px; }
+  .contact-form .input-field-label {
+    margin: 5px 0; }
+  .contact-form input[type=radio] {
+    margin: 5px 10px 10px 10px; }
+>>>>>>> ede76fef599092efc6e1a77541b593c9c16a00c2
 
 body {
   background-image: url("/images/bgimage.jpg");
