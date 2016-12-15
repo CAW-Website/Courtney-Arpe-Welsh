@@ -1,11 +1,15 @@
+.contact-page-image-box {
+  text-align: center;
+  margin: 40px auto; }
+  .contact-page-image-box #contact-page-image {
+    border: 12px double #660000; }
+
 .contact-form {
   color: #9999ff; }
 
 .input-field {
   position: absolute;
   right: 15px;
-  /*	top: 5px;
-  */
   margin-bottom: 10px; }
 
 .input-field-label {
@@ -14,17 +18,11 @@
 input[type=radio] {
   margin: 5px 10px 10px 10px; }
 
-input[type=radio]:first-of-type {
-  margin-left: 0px; }
-
 .new-cust-button {
   /*position: relative;
   left: 30px;*/
   font-weight: bold; }
 
-/*.email-content-field	{
-	width: 500px;
-}*/
 body {
   background-image: url("/images/bgimage.jpg");
   background-repeat: no-repeat; }
