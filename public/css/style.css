@@ -6,22 +6,14 @@
 
 .contact-form {
   color: #9999ff; }
-
-.input-field {
-  position: absolute;
-  right: 15px;
-  margin-bottom: 10px; }
-
-.input-field-label {
-  margin: 5px 0; }
-
-input[type=radio] {
-  margin: 5px 10px 10px 10px; }
-
-.new-cust-button {
-  /*position: relative;
-  left: 30px;*/
-  font-weight: bold; }
+  .contact-form .input-field {
+    position: absolute;
+    right: 15px;
+    margin-bottom: 10px; }
+  .contact-form .input-field-label {
+    margin: 5px 0; }
+  .contact-form input[type=radio] {
+    margin: 5px 10px 10px 10px; }
 
 body {
   background-image: url("/images/bgimage.jpg");
