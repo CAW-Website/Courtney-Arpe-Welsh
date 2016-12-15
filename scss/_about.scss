@@ -2,17 +2,25 @@
 	height: 250px;
 	width: 250px;
 	display: inline;
-	border-radius:5px;
+	border-radius:15px;
 
 
 }
 
 .partner-names {
 	font-family: $nav-font;
-	font-size: 40px
+	font-size: 40px;
+	color: $prim-light;
 
 }
 
 p {
-	font-family: $nav-font;
+	font-family: Georgia, serif;
+	color: white;
 }
+
+h1 {
+	font-family: $nav-font;
+	color: white;
+}
+

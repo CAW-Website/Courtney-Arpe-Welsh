@@ -1,15 +1,22 @@
-
 .img-responsive {
   height: 250px;
   width: 250px;
-  display: inline; }
+  display: inline;
+  border-radius: 15px; }
 
 .partner-names {
   font-family: "Lobster", cursive;
-  font-size: 40px; }
+  font-size: 40px;
+  color: #9999ff; }
 
 p {
-  font-family: "Lobster", cursive; }
+  font-family: Georgia, serif;
+  color: white; }
+
+h1 {
+  font-family: "Lobster", cursive;
+  color: white; }
+
 .contact-page-image-box {
   text-align: center;
   margin: 40px auto; }
