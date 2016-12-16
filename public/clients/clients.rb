@@ -5,7 +5,7 @@ def next_client client
 	Dir.chdir("./" + this_client[:folder])	# enter client file, retrieve file names
 	client_assets = Dir.glob("*")
 	client_assets.sort!
-	puts client_assets
+	# puts client_assets
 
 	client_name_file = File.open(client_assets[2], "r")	# read client name and text
 	this_client[:name] = client_name_file.read
@@ -15,34 +15,19 @@ def next_client client
 	this_client[:ad] = "clients/" + client + client_assets[0]	#create image paths
 	this_client[:logo] = "clients/" + client + client_assets[1]
 
+	Dir.chdir("..")
 	this_client
 end
 
 def send_array
+	Dir.chdir("./public/clients/")
 	client_folders = Dir.glob("*/")
 	client_array = []
 	client_folders.each_with_index do |folder, i|
 			client_array[i] = next_client(folder)
 	end
+	2.times do
+		Dir.chdir("..")
+	end
 	client_array
 end
-
-send_array
-
-# def Client (folder_name)
-# 	@folder = folder_name
-# 	@assets = get_assets
-# 	@name = ""
-# 	@text = ""
-# 	@ad = ""
-# 	@logo = ""
-# 	attr_reader :name, :text, :ad, :logo
-
-# 	def get_assets
-# 		D
-# 	end
-
-# 	def get_name
-		
-# 	end
-# end
