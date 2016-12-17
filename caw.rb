@@ -1,12 +1,13 @@
 require "sendgrid-ruby"
 require "sinatra"
+require "./public/clients/clients.rb"
 
 get "/" do
 	erb :home
 end
 
 get "/portfolio" do
-	@carousel_images = ["burmashave.jpg", "campbells.png", "drpepper.jpg", "jello.png"]
+	@clients = send_array
 	erb :portfolio
 end
 
