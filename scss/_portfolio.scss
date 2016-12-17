@@ -1,0 +1,33 @@
+.carousel-area	{
+	padding-top: 40px;
+}
+
+.client-ad-image	{
+	width: auto;
+	height:	400px;
+	max-height: 400px;
+}
+
+.client-profile	{
+	display: none;
+	margin-top: 40px;
+
+	.client-logo	{
+		width:	90%;
+		margin: 0 auto;
+		vertical-align: middle;
+	}
+
+	.company-name	{
+		font-size: 36px;
+		font-weight: bold;
+		text-align: center;
+		color: $sec-light;
+	}
+
+	.company-text	{
+		font-size: 20px;
+		color: $main-light;
+		margin-top: 20px;
+	}
+}
