@@ -1,5 +1,5 @@
 .carousel-area {
-  padding-top: 40px;
+  margin-top: 40px;
   height: 400px; }
 
 .client-ad-image {
@@ -10,7 +10,7 @@
 
 .client-profile {
   display: none;
-  margin-top: 40px; }
+  padding-top: 40px; }
   .client-profile .client-logo {
     width: 90%;
     margin: 0 auto;
