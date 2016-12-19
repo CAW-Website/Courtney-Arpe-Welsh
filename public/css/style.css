@@ -1,3 +1,4 @@
+
 /*
 Errno::ENOENT: No such file or directory @ rb_sysopen - style.scss
 
@@ -23,3 +24,112 @@ body:before {
   white-space: pre;
   font-family: monospace;
   content: "Errno::ENOENT: No such file or directory @ rb_sysopen - style.scss"; }
+=======
+.img-responsive {
+  height: 250px;
+  width: 250px;
+  display: inline;
+  border-radius: 15px; }
+
+.partner-names {
+  font-family: "Lobster", cursive;
+  font-size: 40px;
+  color: #9999ff; }
+
+p {
+  font-family: Georgia, serif;
+  color: white; }
+
+.Page-Title h1 {
+  color: white;
+  font-family: "Lobster", cursive; }
+
+.carousel-area {
+  margin-top: 40px;
+  height: 400px; }
+
+.client-ad-image {
+  width: auto;
+  max-width: 100px;
+  height: 400px;
+  max-height: 400px; }
+
+.client-profile {
+  display: none;
+  padding-top: 40px; }
+  .client-profile .client-logo {
+    width: 90%;
+    margin: 0 auto;
+    vertical-align: middle; }
+  .client-profile .company-name {
+    font-size: 36px;
+    font-weight: bold;
+    text-align: center;
+    color: #ff6666; }
+  .client-profile .company-text {
+    font-size: 20px;
+    color: #ffeda2;
+    margin-top: 20px; }
+
+.contact-page-image-box {
+  text-align: center;
+  margin: 40px auto; }
+  .contact-page-image-box #contact-page-image {
+    border: 12px double #660000; }
+
+.contact-form {
+  color: #9999ff; }
+  .contact-form .input-field {
+    position: absolute;
+    right: 15px;
+    margin-bottom: 10px; }
+  .contact-form .input-field-label {
+    margin: 5px 0; }
+  .contact-form input[type=radio] {
+    margin: 5px 10px 10px 10px; }
+
+body {
+  background-image: url("/images/bgimage.jpg");
+  background-repeat: no-repeat;
+  background-size: 100% 100%; }
+
+.nav {
+  padding-top: 18px;
+  border-bottom: 1px solid white;
+  font-family: "Lobster", cursive;
+  font-size: 18px; }
+  .nav a:hover {
+    font-size: 26px; }
+
+.main-header {
+  text-align: center;
+  color: white;
+  font-family: "Lobster", cursive; }
+  .main-header h2 {
+    font-size: 62px; }
+  .main-header h3 {
+    font-size: 16px;
+    margin-top: 0px; }
+
+.main-content {
+  height: 500px; }
+
+.footer {
+  height: 300px;
+  background-color: #001933;
+  opacity: 0.2; }
+
+.title {
+  color: #004c99;
+  padding-top: 10px;
+  text-align: center;
+  font-family: "Monoton", cursive; }
+  .title h1 {
+    text-align: left; }
+    .title h1 span:hover {
+      color: #660000; }
+
+span {
+  color: #9999ff; }
+
+/*# sourceMappingURL=style.css.map *
